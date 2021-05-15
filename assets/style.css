@@ -55,6 +55,16 @@ p {
     background-size: cover;
     }
 
+.contact-me {
+    font-size: 25px;
+}
+
+.projects {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    background: url("./images/sky-pic.jpg") no-repeat center center fixed;
+    background-size: cover;
+    }
+
 .card-header {
     background-color: var(--cream);
     font-size: 24px;
@@ -76,9 +86,7 @@ p {
     opacity: .5;
 }
 
-.contact-me {
-    font-size: 25px;
-}
+
 
  
 /* @media screen and (max-width: 800px) {
