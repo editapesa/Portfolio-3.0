@@ -51,6 +51,9 @@ div.transbox {
     font-weight: bold;
 }
 
+p {
+    font-size: small;
+}
 /* .about-me h1 {
     padding-top: .5rem;
     
@@ -105,7 +108,7 @@ div.transbox {
 }
 
  
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     body {
       width: 100%;
     }
@@ -115,6 +118,6 @@ div.transbox {
     body {
         flex-direction: column;
     }
-} 
+}  */
 
 
