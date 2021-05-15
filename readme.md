@@ -3,7 +3,7 @@
 
 
 ## Description
-An updated portfolio is necessary in a developer's job search. This portfolio has been updated to include the latest group project, along with 2 other assignments, an updated resume, and links to the GitHub and LinkedIn profiles.  
+An updated portfolio is necessary in a developer's job search. This portfolio has been updated to include the latest group project, along with 2 other assignments, an updated resume, and links to the GitHub and LinkedIn profiles. Instead of showing the profile, projects, and contact information all on one page, like the previous portfolios, I created separate pages for the projects and contact info to create a more user-friendly and aesthetic view.
 
 ## Technologies
 This portfolio was created with HTML, CSS, and Bootstrap.
