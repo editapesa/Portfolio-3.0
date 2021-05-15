@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+:root {
+    --lite-green: #e6ffff;
+    --sea-green: #00cccc;
+    --cream: #ffe4cf;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--lite-green);
+    }
+
+.custom-jumbotron {
+    background-image: url("../assets/images/beach\ pic.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 60px;
+    display: inline-block;
+}
+
+.navbar-expand {
+    float: right;
+    font-size: 20px;   
+}
+
+.navbar-nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 25px;
+} 
+
+a {
+    color:black;
+}
+
+#my-profile-pic {
+    max-width: 30%;
+    height: auto;
+    display: inline-block;
+}
+
+.about-me {
+    background-color: var(--lite-green);
+}
+
+.about-me h1 {
+    padding-top: .5rem;
+    
+}
+
+.about-me p {
+    padding-top: 1rem;
+    font-size: 18px;
+    text-align: center;
+}
+
+.work h1 {
+    padding-bottom: 1rem;
+}
+
+.card-header {
+    background-color: var(--cream);
+    font-size: 24px;
+    padding: 1rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 40vw;
+    object-fit: cover;
+}
+
+.btn {
+    background-color: var(--cream);
+    padding: 1rem;
+}
+
+.btn:hover {
+    opacity: .5;
+}
+
+.contact-me {
+    margin-bottom: 1rem;
+    padding: 2rem;
+    background-color: var(--sea-green);
+}
+
+.contact-me h1 {
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contact-me ul li {
+    padding-left: 4rem;
+    display: inline-block;
+    list-style: none;
+}
+
+ 
+@media screen and (max-width: 800px) {
+    body {
+      width: 100%;
+    }
+}
+    
+@media screen and (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+} 
+
+
