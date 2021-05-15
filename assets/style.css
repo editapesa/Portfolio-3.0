@@ -8,50 +8,50 @@
     --lite-green: #e6ffff;
     --sea-green: #00cccc;
     --cream: #ffe4cf;
+    font-family: 'Allura', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Parisienne', cursive;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: var(--lite-green);
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    background: url("../assets/images/yellow\ dress3.jpg") no-repeat center center fixed;
+    background-size: cover;
+    /* background-position: center; */
     }
 
-.custom-jumbotron {
-    background-image: url("../assets/images/beach\ pic.jpg");
-    background-size: cover;
-    background-position: center;
+.nav-link {
+    font-family: 'Parisienne';
+    font-size: 20px;
+    font-weight: bold;
 }
 
-header h1 {
+.nav-link:hover {
+    opacity: .7;
+}
+
+h1 {
     font-size: 60px;
-    display: inline-block;
+    font-family: 'Parisienne';
+    font-weight: bold;
 }
-
-.navbar-expand {
-    float: right;
-    font-size: 20px;   
-}
-
-.navbar-nav li {
-    display: inline-block;
-    list-style-type: none;
-    margin-left: 25px;
-} 
 
 a {
     color:black;
 }
 
-#my-profile-pic {
-    max-width: 30%;
-    height: auto;
-    display: inline-block;
-}
-
-.about-me {
+/* .about-me {
     background-color: var(--lite-green);
+    background-color: lightgrey;
+} */
+ 
+div.transbox {
+    background-color: rgb(197, 208, 238);
+    opacity: 0.6;
+    font-weight: bold;
 }
 
-.about-me h1 {
+/* .about-me h1 {
     padding-top: .5rem;
     
 }
@@ -60,11 +60,11 @@ a {
     padding-top: 1rem;
     font-size: 18px;
     text-align: center;
-}
+} */
 
-.work h1 {
+/* .work h1 {
     padding-bottom: 1rem;
-}
+} */
 
 .card-header {
     background-color: var(--cream);
