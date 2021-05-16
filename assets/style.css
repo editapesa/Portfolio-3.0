@@ -60,13 +60,17 @@ p {
 
 .card-header {
     background-color: var(--cream);
-    opacity: 0.5;
+    /* opacity: 0.5; */
     font-weight: bold;
 }
 
 .card-title {
     font-weight: bold;
-    font-size: 40px;
+    /* font-size:4; */
+}
+
+.card-link {
+    font-size: large;
 }
 
 #pettrax {
