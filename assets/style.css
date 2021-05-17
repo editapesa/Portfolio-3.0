@@ -8,8 +8,7 @@
     --lite-green: #e6ffff;
     --sea-green: #00cccc;
     --cream: #ffe4cf;
-    font-family: 'Allura', cursive;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-family: 'Parisienne', cursive;
 }
 
@@ -46,15 +45,18 @@ div.transbox {
 
 p {
     font-size: medium;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact-info {
     background: url("./images/sunset\ pic.jpg") no-repeat center center fixed;
     background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     }
 
 .contact-me {
-    font-size: 25px;
+    font-size: 25px;  
     }
 
 .projects {
@@ -63,18 +65,13 @@ p {
     }
 
 .card-header {
-    background-color: var(--cream);
-    /* opacity: 0.5; */
+    background-color: var(--lite-green);
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .card-title {
     font-weight: bold;
-    /* font-size:4; */
-}
-
-.card-link {
-    font-size: large;
 }
 
 #pettrax {
