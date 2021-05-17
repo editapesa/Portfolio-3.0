@@ -49,7 +49,8 @@ p {
 }
 
 .contact-info {
-    background: url("./images/sunset\ pic.jpg") no-repeat center center fixed;
+    /* background: url("./images/sunset\ pic.jpg") no-repeat center center fixed; */
+    background: url("./images/sky-pic.jpg") no-repeat center center fixed;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -60,7 +61,8 @@ p {
     }
 
 .projects {
-    background: url("./images/sky-pic.jpg") no-repeat center center fixed;
+    /* background: url("./images/sky-pic.jpg") no-repeat center center fixed; */
+    background: url("./images/sunset\ pic.jpg") no-repeat center center fixed;
     background-size: cover;
     }
 
