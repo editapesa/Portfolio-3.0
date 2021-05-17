@@ -23,4 +23,4 @@ This project is licensed under the MIT license. Please click the link below for 
 ## Visuals
 The portfolio can be seen here: [My Portfolio](https://editapesa.github.io/Portfolio-3.0/)
 
-![demo pic](assets\images\demo-pic.jpg)
+![demo pic](assets/images/demo-pic.jpg)
